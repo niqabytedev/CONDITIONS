@@ -7,15 +7,15 @@ int main()
 {
 	
 	int number;
-	cout << "bir sayi giriniz\n";
+	cout << "enter a number\n";
 	cin >> number;
 	if (number > 0) {
-		cout << "pozitif bir sayi girdiniz." << endl;
+		cout << "your number is positive" << endl;
 	}
 	else if (number == 0) {
-		cout << "sayiniz sifirdir" << endl;
+		cout << "your number is zero" << endl;
 	}
 	else {
-		cout << "negatif bir sayi girdiniz" << endl;
+		cout << "your number is negative" << endl;
 	}
 }
