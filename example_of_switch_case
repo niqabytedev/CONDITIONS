@@ -2,19 +2,19 @@
 using namespace std;
 int main()
 {
-	char islemturu;
+	char operator;
 	float x, y;
-	cout << "bir operator seciniz +,-,*,/" << endl;
-	cin >> islemturu;
-	cout << "iki sayi giriniz\n";
+	cout << "choose an operator (+,-,*,/)" << endl;
+	cin >> operator;
+	cout << "enter 2 numbers\n";
 	cin >> x >> y;
-	switch (islemturu)
+	switch (operator)
 	{
 	case '+':cout << "\nx+y=" << x + y; break;
 	case '-':cout << "\nx-y=" << x - y; break;
 	case '*':cout << "\nx*y=" << x * y; break;
 	case '/':cout << "\nx/y=" << x / y; break;
-	default:cout << "yanlis secim";
+	default:cout << "wrong choice";
 	}
 	return 0;
 }
